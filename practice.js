@@ -18,7 +18,9 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+function isTyler(name){
+return (name ==='Tyler');
+}
 
 
 ////////// PROBLEM 2 //////////
@@ -28,7 +30,9 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+function getName(name){
+return prompt("what's your name?");
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -41,7 +45,9 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+function welcome(getName) {
+alert('welcome, + getName')
+}
 
 
 ////////// PROBLEM 4 //////////
@@ -51,7 +57,8 @@ var name = 'Tyler';
 */
 
 //Answer Here
-
+//Arguments--what you actually pass into the function when called
+//Parameters--the hypothetical inputs of a function that are noted and accounted for when declaring it
 
 
 ////////// PROBLEM 5 //////////
@@ -61,8 +68,15 @@ var name = 'Tyler';
 */
 
 //Answer Here
-
-
+/*
+The following values are always falsey
+false
+0 (zero)
+"or" (empty string)
+null
+undefined 
+NaN 
+*/
 
 ////////// PROBLEM 6 //////////
 
@@ -71,7 +85,9 @@ var name = 'Tyler';
 */
 
 //Code Here
-  
+  function myName (){
+    return "MJ";
+  }
 
 
 /*
@@ -79,7 +95,9 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+function myName (){
+  let newMyname;
+}
 
 
 /*
@@ -97,7 +115,11 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+function outerFn(){
+  return function(){
+    return "MJ"
+  }
+}
 
 
 /*
@@ -105,7 +127,7 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+let inneFn = "outerFn";
 
 
 /* 
